@@ -7,3 +7,6 @@ console.log(m);
 let n1 = 7;
 n1 = 20;
 console.log(n1);
+
+const n2 = 100;
+console.log(n2);
