@@ -18,3 +18,6 @@ console.log(last);
 
 arr.push(100);
 console.log(arr);
+
+arr.unshift(400);
+console.log(arr);
