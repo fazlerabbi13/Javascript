@@ -8,3 +8,8 @@ console.log(arr);
 
 let last = arr[arr.length - 1];
 console.log(last);
+
+// Modifying the Array Elements
+
+arr[0] = 80;
+console.log(arr);
