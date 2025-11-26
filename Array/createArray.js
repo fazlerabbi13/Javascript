@@ -28,4 +28,6 @@ arr.pop();
 arr.pop();
 arr.shift();
 arr.shift();
+
+arr.splice(1,2);
 console.log(arr);
