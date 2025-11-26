@@ -11,5 +11,10 @@ console.log(last);
 
 // Modifying the Array Elements
 
-arr[0] = 80;
+// arr[0] = 80;
+// console.log(arr);
+
+// Adding Elements to the Array
+
+arr.push(100);
 console.log(arr);
