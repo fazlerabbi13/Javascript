@@ -26,4 +26,6 @@ console.log(arr);
 
 arr.pop();
 arr.pop();
+arr.shift();
+arr.shift();
 console.log(arr);
