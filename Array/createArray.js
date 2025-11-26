@@ -21,3 +21,9 @@ console.log(arr);
 
 arr.unshift(400);
 console.log(arr);
+
+// Removing Elements from an Array
+
+arr.pop();
+arr.pop();
+console.log(arr);
