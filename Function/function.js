@@ -3,8 +3,19 @@
 // }
 // greet("Fazle Rabbi");
 
-function greet(name = "Fazle Rabbi"){
-    console.log("Hello, " + name);
+// Default Parameters
+
+// function greet(name = "Fazle Rabbi"){
+//     console.log("Hello, " + name);
+// }
+// greet();
+// greet("World");
+
+// Return Statement
+
+function add(a, b){
+    return a + b;
 }
-greet();
-greet("World");
+
+let result = add(5,7);
+console.log(result);
