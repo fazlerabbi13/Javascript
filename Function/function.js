@@ -13,9 +13,17 @@
 
 // Return Statement
 
-function add(a, b){
-    return a + b;
-}
+// function add(a, b){
+//     return a + b;
+// }
 
-let result = add(5,7);
-console.log(result);
+// let result = add(5,7);
+// console.log(result);
+
+// Anonymous Function
+
+const greet = function() {
+    return "Hello World!";
+};
+
+console.log(greet());
