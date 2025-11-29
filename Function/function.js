@@ -22,8 +22,13 @@
 
 // Anonymous Function
 
-const greet = function() {
-    return "Hello World!";
-};
+// const greet = function() {
+//     return "Hello World!";
+// };
 
-console.log(greet());
+// console.log(greet());
+
+// Arrow Function (ES6)
+
+const add = (a, b) => a * b;
+console.log(add(4, 5));
