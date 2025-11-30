@@ -47,11 +47,23 @@
 
 // Higher-Order Function
 
-function multiplyBy(factor){
-    return function(num){
-        return num * factor;
-    };
+// function multiplyBy(factor){
+//     return function(num){
+//         return num * factor;
+//     };
+// }
+
+// const double = multiplyBy(2);
+// console.log(double(5));
+
+// Nested Functions
+
+function outerFunc(a){
+    function innerFunc(b){
+        return a + b;
+    }
+    return innerFunc;
 }
 
-const double = multiplyBy(2);
-console.log(double(5));
+const add = outerFunc(10);
+console.log(add(2));
