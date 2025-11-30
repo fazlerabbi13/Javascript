@@ -30,5 +30,16 @@
 
 // Arrow Function (ES6)
 
-const add = (a, b) => a * b;
-console.log(add(4, 5));
+// const add = (a, b) => a * b;
+// console.log(add(4, 5));
+
+// Constructor Function
+
+function Person(name, age){
+    this.name = name;
+    this.age = age;
+}
+
+const user = new Person("Neha", 22);
+console.log(user.name);
+console.log(user.age);
