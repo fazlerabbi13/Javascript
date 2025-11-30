@@ -35,11 +35,23 @@
 
 // Constructor Function
 
-function Person(name, age){
-    this.name = name;
-    this.age = age;
+// function Person(name, age){
+//     this.name = name;
+//     this.age = age;
+// }
+
+// const user = new Person("Neha", 22);
+// console.log(user.name);
+// console.log(user.age);
+
+
+// Higher-Order Function
+
+function multiplyBy(factor){
+    return function(num){
+        return num * factor;
+    };
 }
 
-const user = new Person("Neha", 22);
-console.log(user.name);
-console.log(user.age);
+const double = multiplyBy(2);
+console.log(double(5));
