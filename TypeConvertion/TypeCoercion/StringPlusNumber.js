@@ -13,13 +13,14 @@
 
 // 3. Comparison of Different Types
 // let str = "7";
-// let num = 3;
+// let num = 7;
 // console.log(str == num);
+// console.log(str === num);
 
 // 4. Boolean Context
-let s = "";
-if (s) {
-    console.log("This won't print"); 
-} else {
-    console.log("This will print");
-}
+// let s = "";
+// if (s) {
+//     console.log("This won't print"); 
+// } else {
+//     console.log("This will print");
+// }
