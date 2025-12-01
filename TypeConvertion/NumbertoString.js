@@ -8,7 +8,7 @@
 
 // 3. Boolean to Number
 
-let bool = true;
-console.log(bool);
-let num = Number(bool);
-console.log(num);
+// let bool = true;
+// console.log(bool);
+// let num = Number(bool);
+// console.log(num);
