@@ -9,10 +9,10 @@ function BankAccount(accountNumber, accountHolderName, balance) {
         console.log(`Balance: ${_balance}`);
     }
 
-//     function deposit(amount) {
-//         _balance += amount;
-//         showAccountDetails();
-//     }
+    function deposit(amount) {
+        _balance += amount;
+        showAccountDetails();
+    }
 
 //     function withdraw(amount) {
 //         if (_balance >= amount) {
