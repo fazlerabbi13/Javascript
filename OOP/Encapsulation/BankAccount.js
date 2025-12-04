@@ -27,10 +27,10 @@ function BankAccount(accountNumber, accountHolderName, balance) {
         deposit: deposit,
         withdraw: withdraw
     };
-// }
+}
 
-// let myBankAccount = BankAccount("123456", "Fazle Rabbi", 1000);
+let myBankAccount = BankAccount("123456", "Fazle Rabbi", 1000);
 
-// myBankAccount.deposit(500); 
+myBankAccount.deposit(500); 
 
-// myBankAccount.withdraw(2000);
+myBankAccount.withdraw(2000);
