@@ -14,14 +14,14 @@ function BankAccount(accountNumber, accountHolderName, balance) {
         showAccountDetails();
     }
 
-//     function withdraw(amount) {
-//         if (_balance >= amount) {
-//             _balance -= amount;
-//             showAccountDetails();
-//         } else {
-//             console.log("Insufficient Balance");
-//         }
-//     }
+    function withdraw(amount) {
+        if (_balance >= amount) {
+            _balance -= amount;
+            showAccountDetails();
+        } else {
+            console.log("Insufficient Balance");
+        }
+    }
 
 //     return {
 //         deposit: deposit,
