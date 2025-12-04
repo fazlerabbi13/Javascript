@@ -23,10 +23,10 @@ function BankAccount(accountNumber, accountHolderName, balance) {
         }
     }
 
-//     return {
-//         deposit: deposit,
-//         withdraw: withdraw
-//     };
+    return {
+        deposit: deposit,
+        withdraw: withdraw
+    };
 // }
 
 // let myBankAccount = BankAccount("123456", "Fazle Rabbi", 1000);
