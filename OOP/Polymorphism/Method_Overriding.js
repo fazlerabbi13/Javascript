@@ -19,5 +19,5 @@ class Cat extends Animal {
 const dog = new Dog();
 dog.speak(); 
 
-// const cat = new Cat();
-// cat.speak();
+const cat = new Cat();
+cat.speak();
