@@ -10,11 +10,11 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal {
-    speak() {
-        console.log("Cat meows");
-    }
-}
+// class Cat extends Animal {
+//     speak() {
+//         console.log("Cat meows");
+//     }
+// }
 
 const dog = new Dog();
 dog.speak(); 
