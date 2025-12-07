@@ -4,9 +4,9 @@ const person= {
     get Name() {
         return `${this.n1} ${this.n2}`;
     },
-    // set Name(name) {
-    //     [this.n1, this.n2] = name.split(" ");
-    // }
+    set Name(name) {
+        [this.n1, this.n2] = name.split(" ");
+    }
 };
 
 console.log(p.Name);
