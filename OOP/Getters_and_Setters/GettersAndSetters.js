@@ -9,6 +9,6 @@ const person= {
     }
 };
 
-console.log(p.Name);
+// console.log(p.Name);
 p.Name = "mohammad ali";
 console.log(p.Name);
