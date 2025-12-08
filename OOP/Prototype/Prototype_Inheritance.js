@@ -8,10 +8,10 @@ Animal.prototype.eat = function () {
 };
 
 // Child constructor
-// function Dog(name, breed) {
-//     Animal.call(this, name); 
-//     this.breed = breed;
-// }
+function Dog(name, breed) {
+    Animal.call(this, name); 
+    this.breed = breed;
+}
 // Inherit methods using prototype
 // Dog.prototype = Object.create(Animal.prototype);
 // Dog.prototype.constructor = Dog; 
