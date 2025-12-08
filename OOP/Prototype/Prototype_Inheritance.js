@@ -17,9 +17,9 @@ Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Dog; 
 
 // Add child-specific method
-// Dog.prototype.bark = function () {
-//     console.log(this.name + " is barking.");
-// };
+Dog.prototype.bark = function () {
+    console.log(this.name + " is barking.");
+};
 
 // const d1 = new Dog("Rocky", "German Shepherd");
 
