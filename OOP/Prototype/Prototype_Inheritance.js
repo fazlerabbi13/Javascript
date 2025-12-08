@@ -13,8 +13,8 @@ function Dog(name, breed) {
     this.breed = breed;
 }
 // Inherit methods using prototype
-// Dog.prototype = Object.create(Animal.prototype);
-// Dog.prototype.constructor = Dog; 
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog; 
 
 // Add child-specific method
 // Dog.prototype.bark = function () {
