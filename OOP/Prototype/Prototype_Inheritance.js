@@ -21,7 +21,7 @@ Dog.prototype.bark = function () {
     console.log(this.name + " is barking.");
 };
 
-const d1 = new Dog("Fazle Rabbi", "Sylhet");
+const d1 = new Dog("Dog Rocky", "Sylhet");
 
 d1.eat();   
 d1.bark();
