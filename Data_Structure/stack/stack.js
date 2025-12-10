@@ -30,9 +30,9 @@ class Stack {
     }
 
 //     // Return stack size
-//     size() {
-//         return this.items.length;
-//     }
+    size() {
+        return this.items.length;
+    }
 
 //     // Print stack
 //     print() {
