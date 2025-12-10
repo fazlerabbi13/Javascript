@@ -25,9 +25,9 @@ class Stack {
     }
 
 //     // Check if stack is empty
-//     isEmpty() {
-//         return this.items.length === 0;
-//     }
+    isEmpty() {
+        return this.items.length === 0;
+    }
 
 //     // Return stack size
 //     size() {
