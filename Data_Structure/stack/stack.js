@@ -34,11 +34,11 @@ class Stack {
         return this.items.length;
     }
 
-//     // Print stack
-//     print() {
-//         console.log(this.items.toString());
-//     }
-// }
+   // Print stack
+    print() {
+        console.log(this.items.toString());
+    }
+}
 
 // // Example usage:
 // const stack = new Stack();
