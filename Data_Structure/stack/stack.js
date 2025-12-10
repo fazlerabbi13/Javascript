@@ -4,9 +4,9 @@ class Stack {
     }
 
     // Push element into the stack
-//     push(element) {
-//         this.items.push(element);
-//     }
+    push(element) {
+        this.items.push(element);
+    }
 
 //     // Remove and return top element
 //     pop() {
