@@ -8,7 +8,7 @@ class Stack {
         this.items.push(element);
     }
 
-//     // Remove and return top element
+    // Remove and return top element
     pop() {
         if (this.isEmpty()) {
             return "Stack is empty!";
@@ -16,13 +16,13 @@ class Stack {
         return this.items.pop();
     }
 
-//     // Return top element without removing
-//     peek() {
-//         if (this.isEmpty()) {
-//             return "Stack is empty!";
-//         }
-//         return this.items[this.items.length - 1];
-//     }
+   // Return top element without removing
+    peek() {
+        if (this.isEmpty()) {
+            return "Stack is empty!";
+        }
+        return this.items[this.items.length - 1];
+    }
 
 //     // Check if stack is empty
 //     isEmpty() {
