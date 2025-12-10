@@ -9,12 +9,12 @@ class Stack {
     }
 
 //     // Remove and return top element
-//     pop() {
-//         if (this.isEmpty()) {
-//             return "Stack is empty!";
-//         }
-//         return this.items.pop();
-//     }
+    pop() {
+        if (this.isEmpty()) {
+            return "Stack is empty!";
+        }
+        return this.items.pop();
+    }
 
 //     // Return top element without removing
 //     peek() {
