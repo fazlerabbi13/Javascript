@@ -40,12 +40,12 @@ class Stack {
     }
 }
 
-// // Example usage:
+// Example usage:
 const stack = new Stack();
 stack.push(10);
 stack.push(20);
 stack.push(30);
-stack.print();       // 10,20,30
-console.log(stack.pop());   // 30
-console.log(stack.peek());  // 20
-console.log(stack.size());  // 2
+stack.print();       
+console.log(stack.pop());   
+console.log(stack.peek());  
+console.log(stack.size()); 
