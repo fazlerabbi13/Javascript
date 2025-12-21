@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnBlur</title>
+     <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+     <h1>Hello World</h1>
+    <h2>onblur attribute</h2>
+
+    <!-- When leave the input box then the input box 
+        value is converted into capital letter. -->
+    Username: <input type="text" 
+                     name="fname" 
+                     id="hel" 
+                     onblur="Blur()">
+    <script>
+        function Blur() {
+            let y = document.getElementById("hel");
+            y.value = y.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>
