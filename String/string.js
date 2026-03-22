@@ -9,8 +9,8 @@ console.log(str.length);
 // console.log(a);
 // console.log(b);
 
-let result = str.includes("llo");
-// let result2 = str.includes("l", 10);
-console.log(result);
-// console.log(result2);
+// let result = str.includes("llo");
+let result2 = str.includes("l", 10);
+// console.log(result);
+console.log(result2);
 
