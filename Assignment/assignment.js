@@ -21,18 +21,18 @@ function sendNotification(email) {
 
 
 
-// function checkDigitsInName(name) {
-//     if(typeof name !== "string"){
-//        return "Invalid Input";
-//     }
+function checkDigitsInName(name) {
+    if(typeof name !== "string"){
+       return "Invalid Input";
+    }
 
-//     for(let ch of name){
-//         if(ch >= '0' && ch <= '9'){
-//             return true;
-//         }
-//     }
-//     return false;
-// }
+    for(let ch of name){
+        if(ch >= '0' && ch <= '9'){
+            return true;
+        }
+    }
+    return false;
+}
 
 
 
